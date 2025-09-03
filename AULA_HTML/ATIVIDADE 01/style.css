@@ -1,0 +1,45 @@
+.body{
+      font-family: Arial, sans-serif;
+      color: white;
+      font-size: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(270deg, #ff0080, #7928ca, #2af598, #fecfef);
+      background-size: 800% 800%;
+      animation: gradient 12s ease infinite;
+    }
+
+    @keyframes gradient {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    form{
+        border: black 2px solid;
+        width: 300px;
+        align-items: center;
+        gap: 12px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    button{
+        border-radius: 15px;
+        padding: 5px;
+        margin: 3px;
+    }
+
+    input, button {
+      padding: 7px;
+      font-size: 13px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+
+  
+
